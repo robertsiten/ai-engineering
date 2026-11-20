@@ -2,9 +2,9 @@
 # For production, remove the bind mount and the --reload flag.
 
 services:
-  estimator:
+  estimator-cag:
     build: .
-    container_name: estimator
+    container_name: estimator-cag
     ports:
       - "8000:8000"
 

@@ -1,6 +1,6 @@
-# Estimator CAG - Servicio de Estimacion de Software con IA
+# SitenCorp - Estimator CAG - Servicio de Estimacion de Software con IA
 
-Servicio de estimacion de proyectos de software impulsado por IA, utilizando una arquitectura **Cache Augmented Generation (CAG)**.
+Ejercicio Servicio de estimacion de proyectos de software impulsado por IA, utilizando una arquitectura **Cache Augmented Generation (CAG)**.
 
 ## Que es CAG y por que lo usamos
 
@@ -60,7 +60,7 @@ curl -X POST http://localhost:8000/api/v1/estimate \
 ## Estructura del proyecto
 
 ```
-estimator/
+estimator-cag/
 ├── app/
 │   ├── main.py            # Aplicacion FastAPI, health check, CORS
 │   ├── config.py           # Configuracion con Pydantic Settings
